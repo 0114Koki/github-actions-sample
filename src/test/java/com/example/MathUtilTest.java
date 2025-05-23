@@ -27,7 +27,7 @@ class MathUtilTest {
     @Test
     void test9(){
         double actualAnswer = MathUtil.power(1, 1);
-        assertEquals(1.0, actualAnswer, "TC9:期待値と実際の値が異なります");
+        assertEquals(5.0, actualAnswer, "TC9:期待値と実際の値が異なります");
     }
 
     @Test
